@@ -1,0 +1,67 @@
+.header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.header img{
+    width: 60px;
+    height: 60px;
+}
+.header-text{
+    margin: 10px;
+    font-family: 'Roboto', 'Arial', 'sans-serif';
+}
+.header-text p{
+    margin-top: 0;
+    color: #7f7f80;
+    font-size: small;
+}
+.header-text h2{
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.user{
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+.user h3{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.user-form{
+    display: flex;
+    width: 100%;
+    padding: 30px;
+}
+.user-form input{
+    height: 3.5rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #d4d4d6;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #1d30a0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.user-form button{
+    white-space: nowrap;
+}
+.user-list{
+    border: 1px solid #e2e2e3;
+    margin:0px 33px;
+}
